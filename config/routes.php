@@ -18,5 +18,5 @@ Macaw::get('(:any)', function($fu){
 
 Macaw::get('',"App\Controllers\HomeController@home");
 
-//Macaw::haltOnMatch();
+Macaw::haltOnMatch();
 Macaw::dispatch();
