@@ -1,8 +1,15 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2017/9/14
- * Time: 22:49
- */
-phpinfo();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><?php echo $article['title'] ?></title>
+</head>
+<body>
+<div class="article">
+    <h1><?php echo $article['title'] ?></h1>
+    <div class="content">
+        <?php echo $article['content'] ?>
+    </div>
+</div>
+</body>
+</html>
